@@ -1,0 +1,21 @@
+Hello, welcome to FileWriter Documentation:
+
+FileWriter is a Java class from java.io package used to write character data to files.
+
+It writes text (not binary) — useful for .txt, .csv, .log, etc.
+
+Syntax: FileWriter fw = new FileWriter("file.txt");
+
+Use write() method to write strings or characters.
+
+By default, it overwrites existing file content.
+
+To append, use: new FileWriter("file.txt", true);
+
+Always call close() to release file resources.
+
+Optionally use flush() to force write buffered data.
+
+Must handle or declare IOException.
+
+Often combined with BufferedWriter for efficiency.
